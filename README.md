@@ -9,6 +9,6 @@ With the dependencies below, you would be able to leverage a vCenter Hiera integ
 
 Possible Dependencies
 =====================
-gem install hiera-vcenter
-gem install RbVviews
-gem install rbvmomi
+gem install hiera-vcenter<Br>
+gem install RbVviews<br>
+gem install rbvmomi<br>

@@ -6,4 +6,11 @@ This is the vmguest Puppet module. This module contains a custom facter that lev
 
 Example Usage
 =============
-Puppet modules that are Virtual Machine oriented (require instanceUuid form vCenter) can leverage this fact to ensure uniqueness and simplify integrations.
+Puppet modules that are Virtual Machine oriented (require instanceUuid form vCenter) can leverage this fact to ensure uniqueness and simplify integrations.<Br><BR>
+With the dependencies below, you would be able to leverage a vCenter Hiera integration to store class information the "puppet.classes" Custom Value of a Virtual Machine.
+
+Possible Dependencies
+=====================
+gem install hiera-vcenter
+gem install RbVviews
+gem install rbvmomi
